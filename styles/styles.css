@@ -23,7 +23,8 @@ body{
     color: black;
 }
 .cabecera img{
-    width: 200px;   
+    width: 150px;
+    height: 100px;   
 }
 
 /* Presentacion */
@@ -31,16 +32,18 @@ body{
 .presentacion{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 80vh;
     color: white;
     font-size:large;
     text-align: center;
 }
 
-
-
-
-
 .presentacion .logospresentacion img{
-    height: 50px;
+    width: 40px;
+}
+
+.presentacion h1{
+    font-size: 50px;
 }
