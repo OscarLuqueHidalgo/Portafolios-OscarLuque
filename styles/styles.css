@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera{
+    background-color: pink;
+    border-bottom: 4px solid palevioletred;
+}
