@@ -1,9 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    background: linear-gradient( to bottom, #292828, #000000);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "League Spartan", sans-serif;
 }
 
+
+/* Cabecera */
 .cabecera{
     display: flex;
     justify-content: space-between;
@@ -11,15 +16,31 @@ body{
     background: radial-gradient(circle, #B100FF, #d980ff);
     border-bottom: 4px solid #111111;
     height: 10vh;
-
 }
-
 .cabecera a{
     text-decoration: none;
     padding-inline: 20px;
     color: black;
 }
-
 .cabecera img{
     width: 200px;   
+}
+
+/* Presentacion */
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    color: white;
+    font-size:large;
+    text-align: center;
+}
+
+
+
+
+
+.presentacion .logospresentacion img{
+    height: 50px;
 }
